@@ -1,4 +1,4 @@
-# DataWareHouse
+# DataWarehouse
 4th proyect for Acamica Full Stack Web Development certification
 
 ## PREREQUISITES / PRERREQUISITOS
