@@ -1,0 +1,80 @@
+body {
+  background: -webkit-gradient(linear, left top, right top, color-stop(39%, #f3dfaf), to(#fffee0));
+  background: linear-gradient(90deg, #f3dfaf 39%, #fffee0 100%);
+  font-family: "Roboto";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+h2 {
+  margin-top: 90px;
+  color: #5a2e2e;
+  font-size: 33px;
+  font-weight: 400;
+  font-weight: 600;
+  border-radius: 30px;
+  letter-spacing: 3px;
+  text-shadow: 0 0 4px whitesmoke, 0 0 0;
+}
+
+.form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: #fffedf;
+  width: 285px;
+  margin: -140px 0 0 -182px;
+  padding: 40px;
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  border-radius: 30px;
+}
+
+.form input {
+  outline: none;
+  display: block;
+  width: 100%;
+  margin: 0 0 20px;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  color: #ccc;
+  font-family: "Roboto";
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 14px;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+  border-radius: 30px;
+}
+
+.form span {
+  cursor: pointer;
+  background: #5a2e2e;
+  width: 100%;
+  padding: 09px 97px;
+  border: 0;
+  color: #fffedf;
+  font-family: "Roboto";
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  border-radius: 30px;
+}
+
+.form span:hover {
+  background: #a74153;
+}
+/*# sourceMappingURL=login.css.map */

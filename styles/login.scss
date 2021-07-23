@@ -1,0 +1,67 @@
+body {
+    background: linear-gradient(90deg, hsla(42, 74%, 82%, 1) 39%, hsla(58, 100%, 94%, 1) 100%);
+    font-family: "Roboto";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  }
+
+  h2 {
+    margin-top:90px;
+    color:#5a2e2e;
+    font-size: 33px;
+    font-weight: 400;
+    font-weight: 600;
+    border-radius: 30px;
+    letter-spacing: 3px;
+    text-shadow: 0 0 4px whitesmoke, 0 0 0;
+    
+  }
+  
+  .form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #fffedf;
+    width: 285px;
+    margin: -140px 0 0 -182px;
+    padding: 40px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    
+    input {
+      outline: none;
+      display: block;
+      width: 100%;
+      margin: 0 0 20px;
+      padding: 10px 15px;
+      border: 1px solid #ccc;
+      color: #ccc;
+      font-family: "Roboto";
+      box-sizing: border-box;
+      font-size: 14px;
+      font-weight: 400;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      transition: 0.2s linear;
+      border-radius: 30px;
+    }
+    span {
+      cursor: pointer;
+      background: #5a2e2e;
+      width: 100%;
+      padding: 09px 97px;
+      border: 0;
+      color: #fffedf;
+      font-family: "Roboto";
+      font-size: 14px;
+      letter-spacing: 2px;
+      font-weight: 600;
+      border-radius: 30px;
+      &:hover {
+        background: #a74153;
+      }
+    }
+  }
