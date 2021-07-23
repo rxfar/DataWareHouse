@@ -38,10 +38,6 @@ Server running on port 3001
 Executing (default): SELECT 1+1 AS result
 Connection has been established successfully.
 
-## ENDPOINTS
-
-You'll find requests tests in "postmanTest/DataWarehouse.postman_collection.json" file. / Vas a encontrar las peticiones en "postmanTest/DataWarehouse.postman_collection.json".
-
 ## ACCESS / ACCESO
 
 Admin:
@@ -53,3 +49,9 @@ No admin:
 
 user: user@acamica.com
 pass: acamica
+
+## ENDPOINTS
+
+You'll find requests tests in "postmanTest/DataWarehouse.postman_collection.json" file. / Vas a encontrar las peticiones en "postmanTest/DataWarehouse.postman_collection.json".
+
+
